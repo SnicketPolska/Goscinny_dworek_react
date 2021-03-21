@@ -1,0 +1,68 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  } 
+  :focus {
+      outline: #08f auto 2px;
+    }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #pricing {
+    overflow-x: auto;
+  }
+  #pricing > p{
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 8px;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 15vh;
+    white-space: pre-line;
+  }
+  table {
+    margin: auto;
+    padding-bottom: 20vh;
+    table-layout: fixed;
+  }
+  caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  tr > * {
+    white-space: pre-line;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  th {
+    background: #a78f61;
+    color: white;
+  }
+  table > tr:first-of-type:first-child {
+    border: none;
+  }
+  td {
+    background: white;
+  }
+  textarea{
+    width:80vw;
+    height:100vh;
+  }
+  button{
+    width:200px;
+    height:50px;
+    font-size:2rem;
+    background:green;
+    margin-left:50%;
+    transform:translateX(-50%);
+  }

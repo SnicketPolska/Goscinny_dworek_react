@@ -1,0 +1,8 @@
+goscinny-dworek-server/admin
+goscinny-dworek-server/main
+goscinny-dworek-server/data
+goscinny-dworek-server/node_modules
+goscinny-dworek-server/upload.bat
+*.jpg
+*.svg
+*.png

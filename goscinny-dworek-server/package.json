@@ -1,0 +1,18 @@
+{
+  "name": "goscinny-dworek-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build:main && npm run build:admin",
+    "build:main": "cd main\\build && del /f/s/q *.* && cd ..\\..\\..\\goscinny-dworek-react && npm run build --prod && xcopy build ..\\goscinny-dworek-server\\main\\build /s",
+    "build:admin": "cd admin\\build && del /f/s/q *.* && cd ../../../goscinny-dworek-admin && npm run build --prod && xcopy build ..\\goscinny-dworek-server\\admin\\build /s",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
